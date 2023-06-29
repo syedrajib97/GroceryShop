@@ -1,2 +1,1 @@
-# GroceryShop
-It's an online grocery shop
+https://syedrajib97.github.io/GroceryShop/
