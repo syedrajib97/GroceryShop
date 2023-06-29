@@ -1,0 +1,47 @@
+.list{ 
+    border-top: 2px solid green;
+    border-bottom: 2px solid green;
+    box-shadow: 1px 1px 5px  gray; 
+    width:105%;   
+}
+.link-list{
+    padding: .45rem 1.8rem;
+    /* width:120%; */
+}
+.link-list:hover{
+   
+    color: white !important;;
+    border-bottom: 1px solid green;
+    border-left:3px solid orangered;
+    background-color: #20aa6b!important;
+   
+    background-color: green;
+}
+.list-group-item-action:hover{
+    background-color:black;
+     color:orange;
+ }
+.list-group:hover{
+    color: orange !important;;
+}
+@media  (max-width: 940px){
+    .list{
+        display: none;
+    }
+}
+@media only screen and (min-width: 1400px) and (max-width: 2000px) {
+    .link-list{
+        padding:1rem 1rem;
+    }
+    .list{
+        width:100%;
+    }
+}
+@media only screen and (min-width: 2001px) and (max-width: 2400px) {
+    .list{
+        width:100%;
+    }
+    .link-list{
+        padding:1.3rem 1rem;
+    }
+}
